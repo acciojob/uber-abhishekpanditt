@@ -27,14 +27,12 @@ public class DriverServiceImpl implements DriverService {
 		driver.setPassword(password);
 
 		Cab cab = new Cab();
-		cab.setPerKmRate(12);
+		cab.setPerKmRate(10);
 		cab.setAvailable(true);
 
 		driver.setCab(cab);
 		driverRepository3.save(driver);
 	}
-
-
 
 	@Override
 	public void removeDriver(int driverId){

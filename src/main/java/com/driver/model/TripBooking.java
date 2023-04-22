@@ -3,7 +3,7 @@ package com.driver.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "trip_info")
+@Table(name = "trip")
 public class TripBooking{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
